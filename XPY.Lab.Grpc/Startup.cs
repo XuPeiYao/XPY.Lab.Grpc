@@ -17,6 +17,7 @@ namespace XPY.Lab.Grpc
     {
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddGrpc();
 
         }
@@ -27,6 +28,7 @@ namespace XPY.Lab.Grpc
             {
                 app.UseDeveloperExceptionPage();
             }
+
 
             app.UseRouting();
 
